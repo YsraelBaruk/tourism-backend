@@ -1,0 +1,33 @@
+C:.
+│   .env
+│   .env.example
+│   .gitignore
+│   package-lock.json
+│   package.json
+│   server.js
+└───src
+    │   app.js
+    │
+    ├───config
+    │       database.js
+    │
+    ├───controllers
+    │       roteiroController.js
+    │       roteiroTypeController.js
+    │       userController.js
+    │
+    ├───models
+    │       Roteiro.js
+    │       RoteiroType.js
+    │       Tag.js
+    │       User.js
+    │
+    ├───routes
+    │       roteiroRoutes.js
+    │       roteiroTypeRoutes.js
+    │       userRoutes.js
+    │
+    └───services
+            roteiroService.js
+            roteiroTypeService.js
+            userService.js
